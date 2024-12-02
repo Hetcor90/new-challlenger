@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda Online</h1>
+    </header>
+
+    <div class="container">
+        <!-- Grid de productos -->
+        <div class="products-grid" id="products-grid"></div>
+
+        <!-- Formulario para agregar productos -->
+        <div class="form-container">
+            <h2>Agregar Producto</h2>
+            <form id="product-form">
+                <div class="form-group">
+                    <label for="name">Nombre del Producto:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="price">Precio:</label>
+                    <input type="number" id="price" name="price" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="image">URL de la Imagen:</label>
+                    <input type="url" id="image" name="image" required>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Agregar Producto</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Cargar los scripts de JS -->
+    <script src="js/getProducts.js"></script> <!-- Para obtener los productos desde el servidor -->
+    <script src="js/addProduct.js"></script> <!-- Para agregar un nuevo producto -->
+</body>
+</html>

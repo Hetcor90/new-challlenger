@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Producto A",
+      "precio": 15.99,
+      "imagen": "https://via.placeholder.com/150?text=Producto+A"
+    },
+    {
+      "id": "2",
+      "nombre": "Producto B",
+      "precio": 22.49,
+      "imagen": "https://via.placeholder.com/150?text=Producto+B"
+    },
+    {
+      "id": "385a",
+      "nombre": "hector lopez",
+      "precio": 2222,
+      "imagen": "https://via.placeholder.com/150?text=Producto+A"
+    },
+    {
+      "id": "056b",
+      "nombre": "ss",
+      "precio": 2222,
+      "imagen": "https://via.placeholder.com/150?text=Producto+A"
+    },
+    {
+      "id": "89f7",
+      "nombre": "rr",
+      "precio": 2222,
+      "imagen": "https://via.placeholder.com/150?text=Producto+A"
+    }
+  ]
+}
